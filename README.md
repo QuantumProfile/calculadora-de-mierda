@@ -29,4 +29,6 @@ y por eso solo pongo mi carpeta lib, además no instalé otro framework ni nada 
 
 # IMPORTANTE
 
-No esta completa
+No esta completa.
+
+No se si soy yo, pero me tardo mucho programando cosas sencillas, la calculadora ni es calculadora aún, apenas es el teclado y solo un boton que cambia cuando cambias a shift o a alpha, no se si voy a retomar esto.
