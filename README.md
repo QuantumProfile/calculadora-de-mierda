@@ -17,7 +17,7 @@ y tienes que saber latex https://manualdelatex.com/
 
 o usar esto https://latex.codecogs.com/eqneditor/editor.php
 
-# Explicación
+# Detalles
 
 Basicamente solo pongo mi carpeta lib, porque como yo no se programar, 
 
