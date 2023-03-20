@@ -26,3 +26,7 @@ si veo un repositorio de github que tiene un monton de carpetas, como tienen nom
 pues no se realmente cual es el principal ni me entero de nada, supongo que les pasará 
 
 y por eso solo pongo mi carpeta lib, además no instalé otro framework ni nada mas que lo de flutter_tex
+
+#IMPORTANTE
+
+No esta completa
