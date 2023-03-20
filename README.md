@@ -9,10 +9,10 @@ Para lo de escribir ecuaciones y cosas matemáticas, hay un coso para eso llamad
 
 pero una cosa es latex y otra implementarlo en algun lenguaje, 
 
-para flutter hay una librería llamada flutter_tex, acá (https://pub.dev/packages/flutter_tex)[https://pub.dev/packages/flutter_tex]
+para flutter hay una librería llamada flutter_tex, acá https://pub.dev/packages/flutter_tex
 
 explica como instalarlo para tu proyecto, solo sigues los pasos, 
 
-y tienes que saber latex (https://manualdelatex.com/)[https://manualdelatex.com/]
+y tienes que saber latex https://manualdelatex.com/
 
-o usar esto (https://latex.codecogs.com/eqneditor/editor.php)[https://latex.codecogs.com/eqneditor/editor.php]
+o usar esto https://latex.codecogs.com/eqneditor/editor.php
