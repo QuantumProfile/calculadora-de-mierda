@@ -16,3 +16,13 @@ explica como instalarlo para tu proyecto, solo sigues los pasos,
 y tienes que saber latex https://manualdelatex.com/
 
 o usar esto https://latex.codecogs.com/eqneditor/editor.php
+
+# Explicación
+
+Basicamente solo pongo mi carpeta lib, porque como yo no se programar, 
+
+si veo un repositorio de github que tiene un monton de carpetas, como tienen nombres raros,
+
+pues no se realmente cual es el principal ni me entero de nada, supongo que les pasará 
+
+y por eso solo pongo mi carpeta lib, además no instalé otro framework ni nada mas que lo de flutter_tex
