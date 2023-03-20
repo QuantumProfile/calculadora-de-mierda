@@ -1,3 +1,4 @@
+import 'package:basic_calculator/Design/screen/input.dart';
 import 'package:flutter/material.dart';
 
 class Screen extends StatelessWidget{
@@ -7,9 +8,7 @@ class Screen extends StatelessWidget{
       children: [
         Flexible(
           flex: 1,
-          child: Container(
-            color:Colors.lightGreen
-          ),
+          child: Input(key: Key('input'),)
         ),
         Flexible(
           flex: 1,

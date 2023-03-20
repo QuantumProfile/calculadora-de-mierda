@@ -42,7 +42,7 @@ class MainKeyboard extends StatelessWidget{
                 Button(color: Colors.grey,type: 'main',key: UniqueKey()),
                 Button(color: Colors.grey,type: 'main',modes: const {
                   'normal':ButtonTemplate(reads: r"""$$\times 10^{x}$$"""),
-                  'shift':ButtonTemplate(reads: 'π'),
+                  'shift':ButtonTemplate(reads: 'π',writes: 'π'),
                   'alpha':ButtonTemplate(reads: 'e')
                 },key: UniqueKey()),
                 Button(color: Colors.grey,type: 'main',key: UniqueKey()),

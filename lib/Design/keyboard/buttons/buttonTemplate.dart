@@ -1,3 +1,5 @@
+import 'package:flutter/cupertino.dart';
+
 import '../../../main.dart';
 
 class ButtonTemplate{
@@ -7,6 +9,11 @@ class ButtonTemplate{
   final String writes;
   final Function() does;
   write(){
-    App.localState.setState('input', {'text':App.localState.getState('input')['text']+writes});
+    //print('aca estoy');
+    //var asd=Key('input');
+    //App.errorHandlingMap['write']=asd;
+    //print('esto dice todo: ${asd==App.errorHandlingMap['constructor']}');
+    App.localState.setState(Key('input'), {'text':App.localState.getState(const Key('input'))['text']+writes});
+    //print('estado: ${App.localState.getState(key)}');
   }
 }

@@ -15,12 +15,14 @@ class Button extends StatefulWidget{
 }
 class _ButtonState extends State<Button>{
   render(){
+    //print('funciono');
     if(mounted){
       setState(() {
+        //print(App.globalState.getState('buttonModes')['mode']);
         does=widget.modes[App.globalState.getState('buttonModes')['mode']].does;
         writes=widget.modes[App.globalState.getState('buttonModes')['mode']].writes;
         reads=widget.modes[App.globalState.getState('buttonModes')['mode']].reads;
-        if(writes!='')widget.modes[App.globalState.getState('buttonModes')['mode']].write();
+        //if(writes!='')widget.modes[App.globalState.getState('buttonModes')['mode']].write();
       });
     }
   }
@@ -30,12 +32,13 @@ class _ButtonState extends State<Button>{
   @override
   Widget build(BuildContext context) {
     App.globalState.linkToState('buttonModes',widget.key,render);
+    //print(App.globalState.getState('buttonModes')['mode']);
     render();
     var showText=reads.contains('\$\$')?TeXView(
       child: TeXViewDocument(reads,
-      style: const TeXViewStyle(
-        contentColor: Colors.white,
-      )
+        style: const TeXViewStyle(
+          contentColor: Colors.white,
+        )
       )
     ):Text(
       reads,
@@ -47,7 +50,8 @@ class _ButtonState extends State<Button>{
     return Padding(
       padding: const EdgeInsets.all(5),
       child: GestureDetector(
-        onTap: does,
+        //onTap: (){render();if(writes!='')widget.modes[App.globalState.getState('buttonModes')['mode']].write();print('hola');},
+        onTap: (){does();if(writes!='')widget.modes[App.globalState.getState('buttonModes')['mode']].write();},
         child: Container(
           //width: widget.type=='main'?MediaQuery.of(context).size.width/6:MediaQuery.of(context).size.width/6,
           height: widget.type=='main'?MediaQuery.of(context).size.height/20:MediaQuery.of(context).size.height/25,

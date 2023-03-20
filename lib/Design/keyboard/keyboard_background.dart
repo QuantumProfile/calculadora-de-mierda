@@ -2,9 +2,14 @@ import 'package:basic_calculator/Design/keyboard/mainKeyboard.dart';
 import 'package:basic_calculator/Design/keyboard/scientificKeyboard.dart';
 import 'package:flutter/material.dart';
 
-class KeyboardBackground extends StatelessWidget{
+class KeyboardBackground extends StatefulWidget{
   const KeyboardBackground({super.key});
 
+  @override
+  State<KeyboardBackground> createState() => _KeyboardBackgroundState();
+}
+
+class _KeyboardBackgroundState extends State<KeyboardBackground> {
   @override
   Widget build(BuildContext context) {
     var deviceOrientation=MediaQuery.of(context).orientation;

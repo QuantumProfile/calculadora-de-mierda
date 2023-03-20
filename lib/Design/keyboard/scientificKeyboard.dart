@@ -17,7 +17,9 @@ class ScientificKeyboard extends StatelessWidget{
             children: [
               Button(color: Colors.blueGrey,type:'scientific',modes: {
                 'normal':ButtonTemplate(reads: 'Shift',does: (){
+                  //print('hola');
                   App.globalState.setState('buttonModes',{'mode':'shift'});
+                  //print(App.globalState.getState('buttonModes')['mode']);
                 }),
                 'shift':ButtonTemplate(reads: 'Normal',does: (){
                   App.globalState.setState('buttonModes', {'mode':'normal'});

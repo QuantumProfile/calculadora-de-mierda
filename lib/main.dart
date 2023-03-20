@@ -13,6 +13,7 @@ class App extends StatelessWidget{
   static var globalState=GlobalStatesController();
   static var localState=IndividualStatesController();
   static var errorHandlingString='empty';
+  static var errorHandlingMap={'constructor':Key(''),'write':Key('')};
   const App({super.key});
   @override
   Widget build(BuildContext context){

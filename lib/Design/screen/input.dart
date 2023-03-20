@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import '../../main.dart';
 
 class Input extends StatefulWidget{
-  const Input({super.key});
+  Input({super.key});
 
   @override
   State<StatefulWidget> createState() =>_InputState();
@@ -23,7 +23,10 @@ class _InputState extends State<Input>{
     render();
     return Container(
       color: Colors.lightGreen,
-      child: Center(child: Text(text)),
+      child: Center(child: Text(
+        text,
+        style: TextStyle(fontSize: 30),
+      )),
     );
   }
 
