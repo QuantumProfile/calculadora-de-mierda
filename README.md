@@ -27,6 +27,6 @@ pues no se realmente cual es el principal ni me entero de nada, supongo que les 
 
 y por eso solo pongo mi carpeta lib, además no instalé otro framework ni nada mas que lo de flutter_tex
 
-#IMPORTANTE
+# IMPORTANTE
 
 No esta completa
